@@ -10,28 +10,28 @@ public class Main {
         int x=sc.nextInt();
         int y=sc.nextInt();
 
-        p.product(x, y);
+        System.out.print(p.product(x, y));
 
         int z=sc.nextInt();
-        p.product(x, y, z);
+        System.out.println(p.product(x, y, z));
 
         double a=sc.nextDouble();
         double b=sc.nextDouble();
-        p.product(a, b);
+        System.out.print(p.product(a, b));
     }
 }
 
 class Product {
 
     public int product(int x, int y) {
-       return 0;
+       return x*y;
     }
 
     public int product(int x, int y, int z) {
-       return 0;
+       return x*y*z;
     }
 
     public double product(double x, double y) {
-       return 0;
+       return x*y;
     }
 }
